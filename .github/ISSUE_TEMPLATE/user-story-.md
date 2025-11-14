@@ -1,18 +1,23 @@
 ---
 name: 'User Story '
-about: Describe this issue template's purpose here.
+about: This Template is for Creating User Story
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-### User Story  
-**As a**   
-**I need**   
-**So that**   
-
-### Details and Assumptions  
--  
-
-### Acceptance Criteria
+**As a** [role]  
+ **I need** [function]  
+ **So that** [benefit]  
+   
+ ### Details and Assumptions
+ * [document what you know]
+   
+ ### Acceptance Criteria  
+   
+ ```gherkin
+ Given [some context]
+ When [certain action is taken]
+ Then [the outcome of action is observed]
+ ```
